@@ -10,7 +10,7 @@ void main() {
     //call main widget MaterialApp()
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeUI(), //เรียกหน้าจอแรกของแอป
+      home: SplashScreenUI(), //เรียกหน้าจอแรกของแอป
     ),
   );
 }
